@@ -7,3 +7,6 @@ export const fruit_snack = [
 
 
 export const fruit_snack_simple = ['grape', 'watermelon', 'cherry', 'apple', 'pear', 'orange', 'coffee', 'ice-tea', 'ice-drink', 'milk-tea', 'potato-strips', 'lollipop', 'ice-cream-square', 'ice-cream-round']
+
+
+export const DATE_TIME_FORMATTER = 'yyyy-MM-dd HH:mm:ss'
