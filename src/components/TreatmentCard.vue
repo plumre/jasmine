@@ -12,7 +12,7 @@
 
           <div class="bottom clearfix">
             <time class="time">{{ currentDate | showDateTime }}</time>
-            <el-button type="text" class="button">操作按钮</el-button>
+            <el-button type="text" class="button">{{todoButton}}</el-button>
           </div>
         </div>
       </el-card>
@@ -27,6 +27,12 @@ import {dateFormat} from "common/utils";
 
 export default {
   name: "TreatmentCard",
+  props: {
+    todoButton: {
+      type: String,
+      default: '未定义'
+    }
+  },
   data() {
     return {
       currentDate: new Date(),
